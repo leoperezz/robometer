@@ -7,7 +7,7 @@ name = "robometer"
 version = "0.0.1" # You can update this as you release new versions
 description = "Robometer: scalable reward modeling with progress and preference"
 readme = "README.md"
-requires-python = "==3.10.*" # Based on your GitHub repo's setup
+requires-python = ">=3.11" # Based on your GitHub repo's setup
 authors = [
     { name = "Anthony Liang", email = "aliang80@usc.edu" }
 ]
@@ -55,7 +55,6 @@ dependencies = [
     "omegaconf>=2.3.0",
     "opencv-python-headless>=4.8.0",
     "opencv-contrib-python-headless>=4.8.0", # Additional OpenCV modules
-    "einops>=0.8.0",
     "num2words",
     "seaborn",
     "bitsandbytes",
@@ -71,9 +70,7 @@ dependencies = [
     "loguru>=0.7.3",
     "xformers==0.0.32.post2",
     "tensorboard",
-    "requests",
     "hydra-core",
-    "omegaconf",
     "tensorflow-datasets==4.9.2", # just for oxe and other tfds dataset uploading
     "tensorflow==2.19", # just for oxe and other tfds dataset uploading
     "tf-keras>=2.19.0", # just for oxe and other tfds dataset uploading
