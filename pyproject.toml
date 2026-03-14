@@ -58,7 +58,7 @@ dependencies = [
     "num2words",
     "seaborn",
     "bitsandbytes",
-    "torch==2.8.0",  # Required for Qwen models, xformers, and modern transformers. Use CUDA build on Linux via tool.uv.sources
+    "torch>=2.2.1,<2.9",  # Required for Qwen models, xformers, and modern transformers. Use CUDA build on Linux via tool.uv.sources
     "torchvision",
     "moviepy",
     "wandb[media]",
